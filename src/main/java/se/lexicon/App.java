@@ -21,5 +21,9 @@ public class App
         names = StringArrayUtil.addAndSort(names, "Ameer Rasheed");
 
         System.out.println(Arrays.toString(names));
+
+        int[] numbers = new int[0];
+        numbers = StringArrayUtil.add(numbers, 2342);
+
     }
 }

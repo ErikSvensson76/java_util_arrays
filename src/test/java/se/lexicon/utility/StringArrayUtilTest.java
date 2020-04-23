@@ -35,7 +35,7 @@ public class StringArrayUtilTest {
         String[] toAdd = {"Mattias", "Georgi", "Huiyi"};
         String[] expected = {"Erik", "Carl", "Mattias", "Georgi", "Huiyi"};
 
-        String[] result = StringArrayUtil.addMany(source,toAdd);
+        String[] result = StringArrayUtil.add(source,toAdd);
         Assert.assertArrayEquals(expected, result);
     }
 
